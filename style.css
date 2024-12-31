@@ -1,6 +1,6 @@
 body{
-    background-image: url("Sigma-man-min.jpg");
-    background-size: 1vw;
+    background-image: url("sigma.gif");
+    background-size: 5vw;
     background-repeat: repeat;
 }
 
@@ -16,7 +16,9 @@ body{
 
 #textDiv{
     text-align: center;
-    color: white;
+    color: black;
+    -webkit-text-stroke: 0.2vw;
+    -webkit-text-stroke-color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
 }
