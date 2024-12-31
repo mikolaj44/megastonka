@@ -1,0 +1,22 @@
+body{
+    background-image: url("Sigma-man-min.jpg");
+    background-size: 1vw;
+    background-repeat: repeat;
+}
+
+#horseImg{
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+}
+
+#textDiv{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vw;
+}

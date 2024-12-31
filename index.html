@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sigma test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+
+        window.onload = function(){
+
+            var horseImage = document.getElementById("horseImg");
+
+            horseImage.addEventListener("click", display);
+
+            var linkArray = ["https://www.youtube.com/watch?v=xvFZjo5PgG0", "https://www.youtube.com/watch?v=V3R9y5v8GUY", "https://www.youtube.com/watch?v=OjNpRbNdR7E"];
+
+            function display(){
+
+                window.location.href = linkArray[Math.floor(Math.random() * linkArray.length)];
+            }
+        };
+    </script>
+
+    <div id="textDiv">
+        <p id="text"> KLIKNIJ ZDJĘCIE! </p>
+    </div>
+
+    <img src="horse.jpg" id="horseImg"></img>
+
+</body>
+</html>
